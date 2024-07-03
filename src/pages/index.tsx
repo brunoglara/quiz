@@ -4,8 +4,6 @@ import { useEffect, useState } from "react";
 import Button from "@/components/Button/Button";
 import Questionnaire from "@/components/Questionnaire/Questionnaire";
 import QuestionModel from "@/model/question";
-import next from "next";
-import { json } from "stream/consumers";
 import { useRouter } from "next/router";
 import { ClipLoader } from "react-spinners";
 
