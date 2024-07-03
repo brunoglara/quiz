@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 import { ClipLoader } from "react-spinners";
 
 export default function Home() {
-	const BASE_URL = "http://localhost:3000/api";
+	const BASE_URL = "https://quiz-git-main-bruno-laras-projects.vercel.app/api";
 	const router = useRouter();
 
 	const [currentQuestion, setCurrentQuestion] = useState<QuestionModel>();
