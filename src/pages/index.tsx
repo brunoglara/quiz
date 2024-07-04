@@ -8,6 +8,7 @@ import { useRouter } from "next/router";
 import { ClipLoader } from "react-spinners";
 
 export default function Home() {
+	
 	const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL
 	const router = useRouter();
 
